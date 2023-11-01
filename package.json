@@ -1,0 +1,11 @@
+{
+  "name": "scss-utils",
+  "files": ["src"],
+  "type": "module",
+  "exports": {
+      ".": {
+        "import": "./src/util.scss",
+        "require": "./src/util.scss"
+      }
+    }
+}
