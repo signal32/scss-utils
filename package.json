@@ -1,11 +1,16 @@
 {
   "name": "scss-utils",
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "type": "module",
   "exports": {
-      ".": {
-        "import": "./src/util.scss",
-        "require": "./src/util.scss"
-      }
+    ".": {
+      "import": "./src/util.scss",
+      "require": "./src/util.scss"
     }
+  },
+  "dependencies": {
+    "modern-normalize": "^2.0.0"
+  }
 }
